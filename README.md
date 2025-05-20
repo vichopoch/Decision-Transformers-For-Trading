@@ -1,5 +1,8 @@
 ## Decision Transformers For Trading
 
+### Quickstart
+Use `make download` to fetch IPSA data and `make train` to run a small training. The `deploy` script generates daily orders.
+
 DRL framework is powerful in solving dynamic decision making problems by learning through interactions with an unknown environment, thus exhibiting two major advantages: portfolio scalability and market model independence. 
 
 Automated trading is essentially making dynamic decisions, namely to decide where to trade, at what price, and what quantity, over a highly stochastic and complex stock market. Taking many complex financial factors into account, DRL trading agents build a multi-factor model and provide algorithmic trading strategies, which are difficult for human traders.

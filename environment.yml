@@ -1,0 +1,16 @@
+name: elastic_trader
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch==2.2.*
+  - pip:
+    - accelerate
+    - vectorbt
+    - pandas
+    - numpy
+    - gymnasium
+    - yfinance
+    - ta
+    - requests

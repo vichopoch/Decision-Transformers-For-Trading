@@ -1,0 +1,6 @@
+torch==2.2.0
+pandas
+yfinance
+ta
+gymnasium
+requests
